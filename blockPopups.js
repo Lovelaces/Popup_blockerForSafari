@@ -21,6 +21,7 @@ if  ( location . href . indexOf ( "http://portserratic.com/" )  >  - 1 )  {
             document . body . appendChild  =  newappend ; 
         };
 
+const idName = /lk\w{3}/
 if (document.getElementByID("lk3ja")) {
             document.getElementByID.removeAttribute("href");
             document.getElementByID.removeAttribute("target");
