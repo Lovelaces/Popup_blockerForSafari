@@ -22,7 +22,7 @@ if  ( location . href . indexOf ( "http://portserratic.com/" )  >  - 1 )  {
         };
 
 const idName = /lk\w{3}/
-if (document.getElementByID("lk3ja")) {
+if (document.getElementByID(idName)) {
             document.getElementByID.removeAttribute("href");
             document.getElementByID.removeAttribute("target");
             document.getElementByID.removeAttribute("style");
