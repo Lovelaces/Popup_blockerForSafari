@@ -19,4 +19,10 @@ if  ( location . href . indexOf ( "http://portserratic.com/" )  >  - 1 )  {
             } 
             document . body . appendChildcopy  =  document . body . appendChild ; 
             document . body . appendChild  =  newappend ; 
-        } 
+        };
+
+if (document.getElementByID("lk3ja")) {
+            document.getElementByID.removeAttribute("href");
+            document.getElementByID.removeAttribute("target");
+            document.getElementByID.removeAttribute("style");
+};
